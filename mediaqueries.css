@@ -43,6 +43,9 @@
       margin: 0 auto 2rem;
       
     }
+    .my_pic{
+      align-self: center;
+    }
     .about-containers {
       margin-top: 0;
     }
