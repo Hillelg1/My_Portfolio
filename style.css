@@ -355,7 +355,10 @@ section{
     width: 80%;
     height: 80%;
   }
- 
+ .weather-pic{
+height: 180px;
+margin-top: 40px;
+ }
   .project-title {
     margin: 1rem;
     color: black;
