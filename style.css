@@ -346,15 +346,16 @@ section{
     background: rgb(250, 250, 250);
   }
   .pic1img{
-    height: 300px;
-    width: 300px;
-    margin-top: 20%;
+    margin-top:  20px;
+    width: 70%;
   }
   .project-img {
-    border-radius: 2rem;
-    width: 80%;
-    height: 80%;
-  }
+    width: 100%; /* Ensures all images fill their container */
+    max-width: 250px; /* Set a max width */
+    height: 200px; /* Ensures all images have the same height */
+    object-fit: contain; /* Crops the image to fit while maintaining aspect ratio */
+    border-radius: 20%; /* Optional: Adds rounded corners */
+}
  .weather-pic{
 height: 180px;
 margin-top: 40px;
